@@ -46,8 +46,6 @@ private:
     void sliderValueChanged(juce::Slider *slider) override;
 
     double currentSampleRate = 0.0;
-    double currentAngle = 0.0;
-    double angleDelta = 0.0;
 
     // ADSR
     juce::ADSR adsr;
